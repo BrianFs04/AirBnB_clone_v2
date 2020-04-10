@@ -30,7 +30,7 @@ exec { 'Symbolic link':
   require  => Exec['Adding fake HTML']
 }
 exec { 'Permissions':
-  command  => 'sudo chown -R root:root /data/',
+  command  => 'sudo chown -R ubuntu:ubuntu /data/',
   provider => shell,
   require  => Exec['Symbolic link']
 }
