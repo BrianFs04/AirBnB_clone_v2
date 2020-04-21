@@ -14,7 +14,7 @@ def closes(error):
 
 @app.route('/cities_by_states')
 def cities_by_states():
-    """Lists cities by states"""
+    """Lists cities by their correspoding states"""
 
     states = storage.all('State')
 
