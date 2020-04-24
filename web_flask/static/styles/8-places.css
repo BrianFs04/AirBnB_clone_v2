@@ -31,6 +31,8 @@
 .title_box h2 {
     text-align: left;
     margin: 20px 0px 20px 0px;
+    max-width: 78%;
+    word-wrap: break-word;
 }
 
 .price_by_night {
